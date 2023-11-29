@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wedding Website</title>
+
+    <link rel="stylesheet" href="preferenced_date.css" />
+
+
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+
+
+    
+<!-- font awesone cdn -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+<!-- 
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="images/img_nature_wide.jpg" style="width:100%">
+
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="images/img_snow_wide.jpg" style="width:100%">
+
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="images/img_mountains_wide.jpg" style="width:100%">
+
+        </div>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div> -->
+
+<section class="home">
+    <p>
+        <q>Welcome to our Preferred Date Page! Choose the date that sets the stage for your dream wedding, and we'll be your guide in planning every detail. From venue suggestions to personalized timelines, let's turn your vision into reality together. Your special day deserves to be as unique as your love story!
+        </q>
+
+
+
+
+    </p>
+</section>
+    <!-- engagement body -->
+    <div id="engagementheading">
+        <h3>Preference Date <i class="fa-solid fa-calendar-days"></i></h3>
+    </div>
+
+
+
+    <form id="weddingPreferencesForm">
+       
+
+        <label for="availability">1. Your Availability:</label>
+        <input type="text" id="availability" name="availability" placeholder="Enter months or specific dates">
+
+        <label>2. Preferred Season:</label>
+        <select name="season" id="season">
+            <option value="spring">Spring</option>
+            <option value="summer">Summer</option>
+            <option value="fall">Fall</option>
+            <option value="winter">Winter</option>
+        </select>
+
+        <label>3. Preferred Day of the Week:</label>
+        <select name="dayOfWeek" id="dayOfWeek">
+            <option value="saturday">Saturday</option>
+            <option value="sunday">Sunday</option>
+            <option value="friday">Friday</option>
+            <option value="other">Other</option>
+        </select>
+
+        <label>4. Time of Day:</label>
+        <select name="timeOfDay" id="timeOfDay">
+            <option value="morning">Morning</option>
+            <option value="afternoon">Afternoon</option>
+            <option value="evening">Evening</option>
+        </select>
+
+        <label for="additionalComments">5. Any Other Preferences or Considerations:</label>
+        <textarea id="additionalComments" name="additionalComments" cols="72" rows="8"
+            placeholder="Enter additional comments"></textarea>
+
+        <button type="button" onclick="submitForm()">Submit</button>
+    </form>
+
+
+
+<!-- 
+    <section class="contact-page" id="contactpage">
+        <div class="heading">
+            <h1>Contact Us</h1>
+            <img src="images/header-img.png" alt="" />
+        </div>
+
+        <form action="">
+            <div class="inputbox">
+                <input type="text" placeholder="your name" />
+                <input type="email" placeholder="your email" />
+            </div>
+
+            <div class="inputbox">
+                <input type="number" placeholder="your phone number" />
+                <input type="text" placeholder="your address" />
+            </div>
+
+            <textarea name="comment" id="comment" cols="50" rows="10"
+                placeholder="your comment is valuable.please say something !"></textarea>
+
+            <a href="#" class="submit-btn"><button type="submit">Send Message</button></a>
+        </form>
+
+        <section class="contact-page2nd">
+            <div class="contact-us">
+                <p class="p-head">for your help</p>
+            </div>
+            <div class="contact-us">
+                <p>👰 If you are getting married & need help:</p>
+                <p>💼 If you are wedding vendor & need help:</p>
+            </div>
+
+            <div class="contact-us">
+                <a href="#"><i class="fa-solid fa-envelope"></i> care@easywed4u.com</a>
+                <a href="#"><i class="fa-solid fa-envelope"></i> care@easywed.com</a>
+            </div>
+
+            <div class="contact-us">
+                <span><i class="fa-solid fa-phone"></i> 9999111100</span>
+                <span><i class="fa-solid fa-phone"></i> 9999111100</span>
+            </div>
+        </section>
+    </section> -->
+
+
+    <footer>
+        <p class="footer-text">Website crafted with ❤️ by Anuj, Aakash, and Shubham</p>
+    </footer>
+
+    
+    <script src="script.js"></script>
+
+</body>
+
+</html>

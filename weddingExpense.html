@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wedding Website</title>
+
+    <link rel="stylesheet" href="style.css"/>
+
+
+
+    <!-- boostrap -->
+
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script> 
+    
+<!-- google font -->
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet" />
+
+<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" />
+
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet" />
+
+
+
+
+<!-- font awesone cdn -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+<!-- Slideshow photos -->
+    <!-- <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="img_nature_wide.jpg" style="width:100%">
+
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="img_snow_wide.jpg" style="width:100%">
+
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="img_mountains_wide.jpg" style="width:100%">
+
+        </div>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div> -->
+
+
+    <!-- home-section -->
+    <div class="home-section">
+
+        <p class="home-head">A <i style="background-color: yellow;"> Budget Tracker</i> and <i style="background-color: yellow;"> Guide</i>
+            for your <q style="color: #606C5D;">Wedding</q> </p>
+            
+            <div class="budget-btn">
+                <button type="button"><a href="#budget-track">Check Budget</a></button>
+            </div>
+    </div>
+
+   
+<div class="home-content">
+    <p>Inside the ₹ 1,00,000 Crore <br>
+        Indian Wedding Industry</p>
+       
+        <h2>Growing every year, and as we speak...</h2>
+
+        <div class="next-p">
+<p>            In India, there are two things people absolutely go out of their comfort zones to splurge. One is their child’s education and the other is their child’s marriage.<br>
+    <span class="next-p-span">And anyone, who has ever attended an Indian wedding will agree that Indian parents always go far and beyond their earning capacity to ensure that their kids have an extravagant wedding while they maintain their “aan” and “shaan.”</span></p>
+        </div>
+</div>
+    <!-- engagement body -->
+
+    <section id="budget-track">
+    <div class="head">
+        <h1>Check Your Budget <i class="fa-solid fa-calculator" style="color: #e0f25a;"></i></h1>
+    </div>
+    
+
+    
+    <form id="expensesForm">
+        <label for="itemName">Item Name:</label><br>
+        <input type="text" id="itemName" placeholder="Enter item name" required>
+<br>
+        <label for="itemExpense">Expense:</label>
+        <br>
+        <input type="number" id="itemExpense" placeholder="Enter expense" required>
+<br>
+        <button type="button" onclick="addItem()">Add Item</button>
+    </form>
+
+
+
+    <div class="container">
+    <table id="expenseTable">
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Expense</th>
+            </tr>
+        </thead>
+        <tbody id="expenseList">
+            <!-- Expense items will be dynamically added here -->
+        </tbody>
+    </table>
+
+
+    <div id="totalExpense" sty>Total Expense: $0</div>
+
+</div>
+
+
+</section>
+
+
+
+
+   
+
+<footer>
+    <p class="footer-text">Website crafted with ❤️ by Anuj, Aakash, and Shubham</p>
+</footer>
+
+
+   
+<!-- 
+
+    <section class="contact-page" id="contactpage">
+        <div class="heading">
+            <h1>Contact Us</h1>
+            <img src="images/header-img.png" alt="" />
+        </div>
+
+        <form action="">
+            <div class="inputbox">
+                <input type="text" placeholder="your name" />
+                <input type="email" placeholder="your email" />
+            </div>
+
+            <div class="inputbox">
+                <input type="number" placeholder="your phone number" />
+                <input type="text" placeholder="your address" />
+            </div>
+
+            <textarea name="comment" id="comment" cols="50" rows="10"
+                placeholder="your comment is valuable.please say something !"></textarea>
+
+            <a href="#" class="submit-btn"><button type="submit">Send Message</button></a>
+        </form>
+
+        <section class="contact-page2nd">
+            <div class="contact-us">
+                <p class="p-head">for your help</p>
+            </div>
+            <div class="contact-us">
+                <p>👰 If you are getting married & need help:</p>
+                <p>💼 If you are wedding vendor & need help:</p>
+            </div>
+
+            <div class="contact-us">
+                <a href="#"><i class="fa-solid fa-envelope"></i> care@easywed4u.com</a>
+                <a href="#"><i class="fa-solid fa-envelope"></i> care@easywed.com</a>
+            </div>
+
+            <div class="contact-us">
+                <span><i class="fa-solid fa-phone"></i> 9999111100</span>
+                <span><i class="fa-solid fa-phone"></i> 9999111100</span>
+            </div>
+        </section>
+    </section> -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
